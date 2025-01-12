@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C6E4D6;
+    padding:116px 60px;
+}
