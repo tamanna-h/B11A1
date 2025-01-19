@@ -1,17 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     max-width: 1280px;
     margin: 0 auto;
+    font-family: "Fira Sans", serif;
+    background: #F5F5F5;
 }
-
+p{
+    color: #575757;
+}
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #C6E4D6;
-    padding:116px 60px;
+    margin: 13px 0 80px 0;
+    padding: 80px 60px;
+    border-radius: 10px;
+}
+.banner h3{
+    font-size: 24px;
+    color: #6A7972;
+}
+.banner h1{
+    font-size: 56px;
+}
+.banner .btn{
+    padding: 18px 34px;
+    margin: 24px 0;
+    font-size: 18px;
+    font-weight: 600;
+    background: #006A50; 
+    color: #fff;
+    font-family: "Fira Sans", serif;
+}
+.banner_img{
+    max-width: 474px;
+    max-height: 400px;
+}
+/* END BANNER */
+
+
+/* START VISION */
+
+.vision_title{
+    margin-bottom: 40px;
+}
+.vision_cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.vision_cards h3{
+    padding: 25px 0 13px 0;
+}
+.vision_card{
+    padding: 2rem;
+    background: #D5E1F5;
+    height: 325px;
+    border-radius: 15px;
+}
+.vision_card .btn{
+    margin-top: 30px;
+    padding: 15px 20px;
+    background: #5490F5;
+    color: #fff;
+    font-weight: bold;
+}
+.vsn_card_1{
+    margin-right: 21px;
+}
+.vsn_card_2{
+    background: #C6E4D6;
+    margin-right: 21px;
+}
+.vsn_card_2 .btn{
+    background: #09A15C;
+}
+.vsn_card_3{
+    background: #F7EBCF;
+}
+.vsn_card_3 .btn{
+    background: #FFC239;
+}
+.vision_icon{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Recent News */
+.news_box{
+    display: flex;
+    background: #fff;
+    border-radius: 20px;
+    margin: 32px 0 24px 0;
+}
+.news_title{
+    margin: 35px 0 35px 0;
+}
+.satelite_img{
+    padding: 48px 32px 48px 48px;
+}
+.news_text h2{
+    margin: 59px 0 25px 0;
+    color: #3E3E3E;
+}
+.satelite_img img{
+     border-radius: 20px;
+}
+.news_date_time{
+    margin: 15px 0 20px 0;
+}
+.time_span{
+    margin-left: 12px;
+}
+.news_text .btn{
+    margin-top: 32px;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #006A50; 
+    color: #fff;
+    font-family: "Fira Sans", serif;
+}
+.news_reverse_box{
+    flex-direction: row-reverse;
+}
+.news_reverse_box .satelite_img{
+    padding: 48px;
+}
+.news_reverse_box .news_text{
+    margin-left: 48px;
+}
+
+
+/* DONATE */
+.donate{
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.donate_title{
+    margin: 60px 0 30px 0;
+    font-size: 40px;
+}
+.taka_box{
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0;
+}
+.taka{
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #DBDBDB;
+    color: #3E3E3E;
+}
+.other_amount{
+    max-width: 1032px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    font-size: 20px;
+    color: #C0C0C0;
+    border-bottom: 1px solid #DBDBDB;;
+}
+
+.donate .btn{
+    margin: 32px 0;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #006A50;
+    color: #fff;
+    font-family: "Fira Sans", serif;
+    border: 1px solid #016149;
+}
+.green_bg{
+    background: #C6E4D6;
+}
+
+/* NEWSLETTER */
+.newsletter{
+    text-align: center;
+    background: #C6E4D6;
+    padding: 80px 0;
+    margin: 80px 0;
+    border-radius: 20px;
+}
+.newsletter_title{
+    margin: 60px 0 30px 0;
+    font-size: 40px;
+}
+.newsletter input{
+    border: none;
+    border-radius: 10px 0 0 10px;
+    width: 600px;
+}
+.newsletter input::placeholder{
+    color: #B7B7B7;
+    padding-left: 40px;
+}
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+.newsletter .btn{
+    padding: 17px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #006A50;
+    color: #fff;
+    font-family: "Fira Sans", serif;
+    border: 1px solid #016149;
+    border-radius: 0 10px 10px 0;
 }
